@@ -1,6 +1,6 @@
 function [JPEGLS_coderoutput1]=GolombCoding(JPEGLS_coderoutput1, MErrval, k, LIMIT,qbpp)
 
-val1 = floor(MErrval/(2^k)); %Merrval/2^K的商222
+val1 = floor(MErrval/(2^k)); %Merrval/2^K的商222222
         val2 = val1*(2^k);
         val3 = LIMIT-qbpp-1; 
         if val1<val3
